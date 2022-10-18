@@ -28,16 +28,19 @@ header{
 }
 main{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 footer{
     grid-area: content;
 }
 section{
     height: 100vh;
-    background-color: tomato;
+    
 }
 .sobre-mim{
-    background-color: lightgreen;
+    
 }
 .projetos{
     background-color: lightskyblue;
