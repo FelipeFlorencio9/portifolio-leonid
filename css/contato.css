@@ -42,7 +42,7 @@
     transition: color .5s;   
 }
 .social:hover{
-    color: var(--prymary-color);
+    color: var(--primary-color);
 }
 .link-container{
     grid-area: link;
