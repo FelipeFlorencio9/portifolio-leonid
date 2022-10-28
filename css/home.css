@@ -44,5 +44,16 @@
 
 /* MOBILE */
 @media (max-width:640px){
-   
+    .home{
+        width: 100%;
+    }
+    .profile__text{
+        font-size: 1.8rem;
+        align-self: center;
+    }
+    .profile__name{
+        font-size: 2.5rem;
+       }
+       
+       
 }

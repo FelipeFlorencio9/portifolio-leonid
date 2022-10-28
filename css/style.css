@@ -1,6 +1,7 @@
 :root{
     --primary-color:#FEDC00;
     --icon-color: #252525;
+    --footer-color: #505050;
 }
 html{
     scroll-behavior: smooth;
@@ -53,12 +54,14 @@ footer{
     place-content: center;
     border-top: 2px solid #fff;
     font-size: .75rem;
-
+    font-style: italic;
+    color: var(--footer-color);
 }
 
 /* TABLET */
 
 @media (max-width: 960px) {
+    
     header {
         width: 80%;
         flex-direction: row-reverse;
@@ -75,16 +78,21 @@ footer{
     
     .main{
         /* height: 150%; */
-        width: 150%;
+        width: 100%;
     }
   
 }
 
 /* MOBILE */
 @media (max-width:640px){
+
    main{
    height: 100%;
    width: 100%;
-
+   }
+   header{
+    flex-direction: row;
+    margin-right: 48px;
+    width: 90%;
    }
 }
