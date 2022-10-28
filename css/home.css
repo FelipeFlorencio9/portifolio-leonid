@@ -29,10 +29,20 @@
 }
 /* TABLET */
 @media (max-width:960px){
-
+    .profile{
+        flex-direction: column;
+        margin-top: 260px;
+        margin-bottom: 260px;
+    }
+    .profile__infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* MOBILE */
 @media (max-width:640px){
-
+   
 }

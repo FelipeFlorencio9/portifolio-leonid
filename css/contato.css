@@ -56,3 +56,25 @@
     font-size: 1.5rem;
 }
 
+@media (max-width:960px){
+    .contato{
+        margin-top:128px;
+        width: 80%;
+        position: relative;
+    }
+
+    .contato-container{
+        position: absolute;
+        left: 18%;
+    }
+    .social-container{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        bottom: 25%;
+    }
+    .link-container{
+        position: absolute;
+        right: 18%;
+    }
+}

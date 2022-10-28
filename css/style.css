@@ -50,3 +50,19 @@ footer{
     font-size: .75rem;
 
 }
+
+@media (max-width: 960px) {
+    header {
+        width: 80%;
+        flex-direction: row-reverse;
+    }
+    .logo {
+        gap: 16px;
+    }
+    .main{
+        /* height: 150%; */
+        width: 150%;
+    }
+  
+}
+

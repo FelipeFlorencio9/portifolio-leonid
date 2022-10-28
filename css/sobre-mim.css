@@ -57,3 +57,33 @@
 .skills__icon span{
     font-weight: 700;
 }
+
+@media (max-width: 960px) {
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        gap: 48px;
+        
+    }
+    .description__text {
+        max-width: 100%;
+    }
+    .skills{
+        gap: 48px;
+    }
+    .skills__container{
+        justify-content: space-between;
+        gap: 90px;
+    }
+    .skills__title{
+        font-size:48px;
+    }
+    .skills__icon{
+        width: 125px;
+        height: 125px;
+    }
+    
+   
+}
